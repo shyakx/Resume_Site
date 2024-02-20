@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <!-- Include your personal information and summary here -->
-        </section>
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <!-- Include your work experience here -->
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <!-- Include your projects here -->
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <!-- Include your contact information and a contact form here -->
-        </section>
-    </main>
-    <footer>
-        <!-- Include any footer content here -->
-    </footer>
-    <script src="script.js"></script>
+  <header>
+    <nav>
+      <div class="menu-toggle">&#9776;</div>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <section id="about">
+      <h1>About Me</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae arcu eu odio consequat suscipit.</p>
+    </section>
+    
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>Experience details go here...</p>
+    </section>
+    
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Project details go here...</p>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
